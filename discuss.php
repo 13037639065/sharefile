@@ -1,9 +1,5 @@
-﻿<?php
-	include "data/conf.php";
-	include "database/connect.php";
-	
+﻿<?php	
 	include "template/head.php";
-	include "template/commen.php";
 ?>
 <div class="starter-template">
 	<?php 
