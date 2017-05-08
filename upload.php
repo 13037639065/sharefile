@@ -22,7 +22,7 @@
 		else 
 		{
 			echo $filename."</br>";
-			$path = "D:\\phpStudy\\WWW\\filelist\\".iconv("UTF-8","gb2312",$filename);
+			$path = "filelist/".iconv("UTF-8","gb2312",$filename);
 			if(move_uploaded_file($_FILES["file"]["tmp_name"],$path))
 			{
 				echo "Upload: " . $filename . "<br />";
